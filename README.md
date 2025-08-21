@@ -29,15 +29,6 @@ python MLP.py
 
 The script downloads MNIST via `tf.keras.datasets.mnist`, trains the network, and prints test set accuracy.
 
-## Project structure
-```
-mlp-mnist-from-scratch/
-├── LICENSE
-├── MLP.py
-├── README.md
-├── requirements.txt
-└── .gitignore
-```
 
 ## Notes
 - By default, TensorFlow installed is the CPU version. If you have a GPU and proper drivers/CUDA, you may install the GPU-compatible package for better performance.
